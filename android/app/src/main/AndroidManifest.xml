@@ -1,6 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.xylophones">
    <application
+       android:usesCleartextTraffic="true"
         android:label="xylophones"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
